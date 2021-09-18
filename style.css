@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#main-container {
+    background: white;
+    height: 90vh;
+    width: 30vw;
+    border-radius: 20px;
+    margin: 2% 0 0 35%;
+}
+
+#hero-illustrition {
+    height: 30vh;
+    width: 30vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url("images/illustration-hero.svg");
+}
+
+.text {
+    width: 23vw;
+    margin: 10% auto auto auto;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.content {
+    text-align: center;
+}
+
+.heading {
+    color: hsl(223, 47%, 23%);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tag-text {
+    color: hsl(224, 23%, 55%);
+}
+
+#plan-container {
+    display: flex;
+    background: hsl(225, 100%, 98%);
+    height: 15vh;
+    width: 25vw;
+    border-radius: 10px;
+    margin: auto auto auto auto;
+}
+
+#icon-music {
+    height: 3.25rem;
+    width: 3.25rem;
+    margin: auto auto auto 15px;
+}
+
+.plan-text {
+    font-size: 16px;
+}
+
+.plan-heading {
+    color: hsl(223, 47%, 23%);
+    position: relative;
+    left: -5%;
+    top: 9%;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.plan-price {
+    position: relative;
+    left: -35%;
+    top: 35%;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-change,
+a {
+    color: hsl(245, 75%, 52%);
+    font-size: 1.0rem;
+    position: relative;
+    left: -7%;
+    align-self: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#payment-btn {
+    height: 7vh;
+    width: 25vw;
+    background: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 5% 0% 0% 10%;
+    cursor: pointer;
+    box-shadow: inset 0 20px 20px -20px hsl(245, 75%, 52%);
+}
