@@ -5,6 +5,7 @@ body {
     background-image: url('images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-size: auto;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 #main-container {
@@ -26,7 +27,6 @@ body {
 .text {
     width: 23vw;
     margin: 10% auto auto auto;
-    font-family: 'Red Hat Display', sans-serif;
 }
 
 .content {
@@ -79,9 +79,9 @@ body {
 }
 
 .plan-change,
-a {
+#plan-change-link {
     color: hsl(245, 75%, 52%);
-    font-size: 1.0rem;
+    font-size: 0.8rem;
     position: relative;
     left: -7%;
     align-self: center;
@@ -89,7 +89,19 @@ a {
     text-decoration: underline;
 }
 
+.plan-change :hover,
+#plan-change-link :hover {
+    color: hsl(224, 23%, 55%);
+}
+
+
+/* 
+#plan-change-link :hover {
+    text-decoration: none;
+} */
+
 #payment-btn {
+    font-weight: bolder;
     height: 7vh;
     width: 25vw;
     background: hsl(245, 75%, 52%);
@@ -98,5 +110,23 @@ a {
     border-radius: 10px;
     margin: 5% 0% 0% 10%;
     cursor: pointer;
-    box-shadow: inset 0 20px 20px -20px hsl(245, 75%, 52%);
+    box-shadow: 0px 10px 15px 0px hsl(246, 92%, 90%);
+}
+
+#payment-btn:hover {
+    background-color: hsl(224, 100%, 59%);
+}
+
+#cancel-order-link {
+    font-size: 0.79rem;
+    font-weight: bolder;
+    position: relative;
+    left: 40%;
+    top: 2%;
+    cursor: pointer;
+    color: hsl(224, 23%, 55%);
+}
+
+#cancel-order-link :hover {
+    color: hsl(223, 47%, 23%);
 }
